@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+    
+    
+
+}
+
+.container{
+    width: 100%;
+    height: 100px;
+    background-color: #986dff;
+    display: flex;
+}
+
+.menu{
+    width: 70%;
+    height: 60%;
+    background-color: #986dff;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+.container-foto{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 40px;
+    
+
+}
+
+.foto img{
+    max-width: 15%;        
+    height: auto;  
+    width: 30%;          
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+}
+
+.escrita-fto{
+    color: white;
+}
+
+main{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+    border: 1px solid white;
+}
+
+.sobre-mim{
+    width: 100%;
+    height: 50px;
+    background-color: #986dff;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border: 1px solid white;
+    
+}
+
+.container-diversos{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.formacao{
+    width: 40%;
+    height: 50px;
+    background-color: #986dff;
+    color: white;
+    border: 1px solid white;
+    justify-content: center;
+    
+}
+
+.experiencia{
+    width: 40%;
+    height: 50px;
+    background-color: #986dff;
+    color: white;
+    justify-content: center;
+    border: 1px solid white;
+}
+
+.detail-formacao{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    border: 1px solid white;
+    
+}
+
+.detail-experiencia{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 40px 20px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .contato p {
+    margin: 5px 0;
+  }
+  
+  .social-links {
+    margin-top: 15px;
+  }
+  
+  .social-links a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    
+  }
+  
+  .social-links a:hover {
+    color: #00aced;
+  }
+  
+  .footer-bottom {
+    margin-top: 30px;
+    font-size: 0.9em;
+    border-top: 1px solid #333;
+    padding-top: 15px;
+    text-align: center;
+  }
+  
+
+  a {
+    color: white /* cor normal */
+  }
+  
+  a:hover {
+    color: #423950 /* quando passa o mouse */
+  }
+  
+  a:visited {
+    color: white; /* clicado */
+  }
+
