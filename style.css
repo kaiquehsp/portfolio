@@ -1,185 +1,275 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: "Space Grotesk", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+    
 }
 
 .container {
-	width: 100%;
-	height: 100px;
-	background-color: #986dff;
-	display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #5b88a5;
+    display: flex;
 }
 
 .menu {
-	width: 70%;
-	height: 60%;
-	background-color: #986dff;
-	display: flex;
-	justify-content: center;
-	margin: auto;
+    width: 70%;
+    height: 10vh;
+    background-color: #5b88a5;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
-ul {
-	list-style: none;
-	display: flex;
-	gap: 30px;
-	align-items: center;
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
 }
+
+
 
 .container-foto {
-	width: 100%;
-	height: 300px;
-	background-color: rgb(0, 0, 0);
-	margin-top: 40px;
+    width: 100%;
+    height: 80vh;
+    background-color: #f4f4f2;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .foto img {
-	max-width: 15%;
-	height: auto;
-	width: 30%;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
+    max-width: 100%;
+    height: auto;
+    width: 70%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .foto {
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .escrita-fto {
-	color: white;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
 }
 
 main {
-	width: 100%;
-	height: 200px;
-	background-color: rgb(0, 0, 0);
-	margin-top: 40px;
-	margin-bottom: 40px;
-	color: white;
-	border: 1px solid white;
+    width: 100%;
+    height: auto;
+    background-color: #f4f4f2;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: black;
+    border: 1px solid black;
+    padding: 20px;
 }
 
 .sobre-mim {
-	width: 100%;
-	height: 50px;
-	background-color: #986dff;
-	display: flex;
-	justify-content: center;
-	color: white;
-	border: 1px solid white;
+    width: 100%;
+    background-color: #5b88a5;
+    display: flex;
+    justify-content: center;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 0;
 }
 
 .container-diversos {
-	width: 100%;
-	height: 300px;
-	background-color: rgb(0, 0, 0);
-	display: flex;
-	justify-content: space-between;
+    width: 100%;
+    background-color: #f4f4f2;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-.formacao {
-	width: 40%;
-	height: 50px;
-	background-color: #986dff;
-	color: white;
-	border: 1px solid white;
-	justify-content: center;
-}
-
+.formacao,
 .experiencia {
-	width: 40%;
-	height: 50px;
-	background-color: #986dff;
-	color: white;
-	justify-content: center;
-	border: 1px solid white;
+    width: 48%;
+    background-color: #5b88a5;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
 }
 
-.detail-formacao {
-	width: 100%;
-	height: 250px;
-	background-color: black;
-	border: 1px solid white;
-}
-
+.detail-formacao,
 .detail-experiencia {
-	width: 100%;
-	height: 250px;
-	background-color: black;
-	border: 1px solid white;
+    width: 100%;
+    background-color: #f4f4f2;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.soft {
+    width: 100%;
+    background-color: #5b88a5;
+    color: black;
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.detail-soft {
+    width: 100%;
+    background-color: #f4f4f2;
+    padding-left: 30px;
+}
+
+.detail-soft ol {
+    list-style-type: disc;
 }
 
 .footer {
-	background-color: #1a1a1a;
-	color: #ffffff;
-	padding: 40px 20px 20px;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 40px 20px 20px;
 }
 
 .footer-content {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .contato p {
-	margin: 5px 0;
+    margin: 5px 0;
 }
 
 .social-links {
-	margin-top: 15px;
+    margin-top: 15px;
 }
 
 .social-links a {
-	color: #ffffff;
-	margin: 0 10px;
-	text-decoration: none;
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
 }
 
 .social-links a:hover {
-	color: #00aced;
+    color: #00aced;
 }
 
 .footer-bottom {
-	margin-top: 30px;
-	font-size: 0.9em;
-	border-top: 1px solid #333;
-	padding-top: 15px;
-	text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    border-top: 1px solid #333;
+    padding-top: 15px;
+    text-align: center;
 }
 
 a {
-	color: white; /* cor normal */
+    color: white;
 }
 
 a:hover {
-	color: #423950; /* quando passa o mouse */
+    color: #423950;
 }
 
 a:visited {
-	color: white; /* clicado */
+    color: white;
 }
 
-.button-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: 20px;
-	background-color: rgb(255, 255, 255);
+h3 {
+    font-size: 30px;
 }
 
-.button {
-	color: white;
-	display: flex;
-	justify-content: center;
+h4 {
+    font-size: 20px;
 }
 
-.detail-formacao p {
-	margin-bottom: 10px;
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .menu {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .container-foto {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .foto img {
+        width: 80%;
+        height: auto;
+    }
+
+    .escrita-fto {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .sobre {
+        padding: 0 10px;
+        text-align: justify;
+    }
+
+    .container-diversos {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+
+    .formacao,
+    .experiencia {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .detail-formacao,
+    .detail-experiencia {
+        height: auto;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .soft {
+        margin-top: 30px;
+    }
+
+    .detail-soft {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .footer-content {
+        padding: 0 10px;
+    }
+
+    .social-links {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
